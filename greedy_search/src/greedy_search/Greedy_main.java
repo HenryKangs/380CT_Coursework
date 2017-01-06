@@ -14,7 +14,7 @@ public class Greedy_main {
             for (int i = 0; i < 100; i++) {
                 total += begin(n, bit);
             }
-            System.out.println(total/100);
+            System.out.println(n + ": " + total/100);
         }
     }
 

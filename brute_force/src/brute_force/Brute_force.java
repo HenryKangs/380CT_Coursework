@@ -12,7 +12,7 @@ public class Brute_force {
                 //System.out.print(begin(a) + " ");
                 begin(n, bit);
             }
-            System.out.println((System.nanoTime()- startTime) / 100);
+            System.out.println(n + ": " + (System.nanoTime()- startTime) / 100);
         }
     }
 

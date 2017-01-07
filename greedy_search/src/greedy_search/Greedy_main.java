@@ -7,9 +7,9 @@ import java.util.Random;
 public class Greedy_main {
 
     public static void main(String[] args) {
-        int bit = 20;
+        int bit = 10;
         int total = 0;
-        for (int n = 20; n < 140; n = n + 4) {
+        for (int n = 10; n < 70; n = n + 2) {
             total = 0;
             for (int i = 0; i < 100; i++) {
                 total += begin(n, bit);

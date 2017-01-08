@@ -14,7 +14,7 @@ public class Greedy_main {
             for (int i = 0; i < 100; i++) {
                 total += begin(n, bit);
             }
-            System.out.println(n + ": " + total/100);
+            System.out.println(total / 100);
         }
     }
 
@@ -27,8 +27,8 @@ public class Greedy_main {
             temp = rand.nextInt(max_n_bit_number) + 0;
             S[i] = temp;
         }
-        int t = 10000;
         Arrays.sort(S, Collections.reverseOrder());
+        int t = rand.nextInt(n * max_n_bit_number) + 0;
         return SubsetSum_Greedy(S, n, t);
     }
 
